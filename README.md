@@ -1,2 +1,2 @@
-# EC_IT143_cd
-This repository is for storing some of my work. IT124 Database design &amp; analysis
+# Cohorte_2 Project1
+This project is a semantic HTML showcase website built for my upcoming startup, C.Gram IT SERVICES. Developed as part of the Akieni Academy curriculum, it leverages clean, modern, and accessible HTML5 tags integrated with a classless CSS stylesheet provided by our instructor Euloge. 
