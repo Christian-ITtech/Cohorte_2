@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Verdana, sans-serif;
+}
+
+header {
+    background-color: #e53935;
+    position: fixed;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 20px;
+    padding: 10px 10px;
+    letter-spacing: 3px;
+}
+
+.hero_section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: slider 40s infinite ease-in-out;
+
+}
+
+.hero-content {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   
+}
+
+@keyframes slider {
+    0% { background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/image1.jpg"); }
+    25% { background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/image2.jpg"); }
+    50% { background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/image3.jpg"); }
+    75% { background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/image4.jpg"); }
+    100% { background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/image5.jpg"); }
+}
+
+.button_hero {
+    display: inline-block;
+    background-color: #e53935; /* Le rouge de votre maquette Canva */
+    color: white;
+    text-decoration: none; /* Enlève le soulignement du lien */
+    padding: 12px;
+    border-radius: 30px; /* Donne l'effet très arrondi du modèle */
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.button_hero:hover {
+    transform: scale(1.05);
+}
