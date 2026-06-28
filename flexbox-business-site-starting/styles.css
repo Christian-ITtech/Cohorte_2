@@ -117,7 +117,7 @@ input::placeholder {
    text-align: center;
    color: white;
    transform: translateY(-50px);
-   line-height: 2;
+   line-height: 1;
   
 }
 
@@ -126,7 +126,7 @@ input::placeholder {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     color: rgb(31, 214, 246);
 }
 span {
@@ -166,6 +166,8 @@ p {
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: space-around;
     width: auto;
@@ -178,13 +180,13 @@ article {
     flex-wrap: wrap;
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.01);
-    width: 800px;
-    max-width: 100%;
+    max-width: 800px;
     backdrop-filter: blur(70px);
     border: 1px solid rgb(255, 255, 255, 0.9);
     border-radius: 10px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    height: 960px;
 }
 
 article:hover {
@@ -208,9 +210,3 @@ article h3 {
     padding-top: 0.8px;
 }
 
-#founder-heavenly img {
-    min-width: 5rem;
-    object-fit: cover;
-    object-position: center;
-    transform: translateX(50px);
-}
