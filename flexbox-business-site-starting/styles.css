@@ -189,8 +189,8 @@ article {
     margin: 10px;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.01);
-    width: 100%;
-    max-width: 500px;
+    width: auto;
+    max-width: 7rem;
     backdrop-filter: blur(70px);
     border: 1px solid rgb(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -208,15 +208,15 @@ article p {
     text-align: center;
     letter-spacing: 4px;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 1rem;
     color: white;
-    padding: 20px;
+    padding: 1rem;
 }
 
 article h3 {
     letter-spacing: 4px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0.8px;
 }
 
 #founder-heavenly img {
