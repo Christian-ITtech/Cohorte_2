@@ -52,7 +52,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    flex-grow: 2;
+    flex-shrink: 2;
 }
 
 
@@ -79,7 +79,7 @@ nav ul li a {
 .search-container input {
     height: 2.2rem;
     border: 2px solid rgb(0, 0, 0);
-    width: 400px;
+    width: 4rem;
     font-size: 1.1rem;
     border-radius: 0.6rem;
     text-align: center;
@@ -126,7 +126,7 @@ input::placeholder {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 5rem;
     color: rgb(31, 214, 246);
 }
 span {
@@ -172,23 +172,14 @@ p {
     height: auto;
 }
 
-.founder-background img {
-  padding: 15px;
-  height: auto;
-  max-height: 7rem;
-  min-width: 7rem;
-  object-fit: cover;
-  object-position: center;
-  transform: translateX(20px);
-  padding-top: 0;
-}
 
 article {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.01);
-    width: auto;
+    width: 800px;
+    max-width: 100%;
     backdrop-filter: blur(70px);
     border: 1px solid rgb(255, 255, 255, 0.9);
     border-radius: 10px;
