@@ -40,7 +40,7 @@ nav ul li {
     border-radius: 6px;
     margin-right: 10px;
     background-color: rgb(255, 255, 255, 0.1);
-    height: 30px;
+    height: 1.6rem;
 }
 nav ul li:hover {
     background-color: rgba(31, 214, 246, 0.5);
@@ -51,7 +51,7 @@ nav ul li:hover {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 1rem;
     flex-grow: 2;
 }
 
@@ -60,12 +60,12 @@ nav ul {
 nav ul li a {
      text-decoration: none;
      color: white;
-     font-size: 16px;
+     font-size: 1rem;
 }
 
 .search-container {
     position: relative;
-    padding-top: 12px;
+    padding-top: 0.6rem;
 }
 
 .material-icons {
@@ -80,8 +80,8 @@ nav ul li a {
     height: 2.2rem;
     border: 2px solid rgb(0, 0, 0);
     width: 400px;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 1.1rem;
+    border-radius: 0.6rem;
     text-align: center;
     transition: border 0.5s ease-in;
     background-color: rgba(31, 214, 246, 0.6);
@@ -122,11 +122,11 @@ input::placeholder {
 }
 
 .site-quote {
-    font-size: 35px;
+    font-size: 2rem;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 8rem;
     color: rgb(31, 214, 246);
 }
 span {
@@ -134,13 +134,13 @@ span {
 }
 
 p {
-    font-size: 25px;;
+    font-size: 1.4rem;;
 }
 
 .site-quote,
 h1,
 p {
-    letter-spacing: 2px;
+    letter-spacing: 0.1rem;
 }
 
 .founders {
@@ -152,7 +152,7 @@ p {
 }
 
 .founders h2 {
-    font-size: 70px;
+    font-size: 8rempx;
     color:  rgb(31, 214, 246);
 }
 
@@ -169,7 +169,7 @@ p {
     gap: 10px;
     justify-content: space-around;
     width: auto;
-    max-height: auto;
+    max-height: 100%;
     flex-wrap: wrap;
 }
 
@@ -220,7 +220,7 @@ article h3 {
 }
 
 #founder-heavenly img {
-    min-width: 400px;
+    min-width: 5rem;
     object-fit: cover;
     object-position: center;
     transform: translateX(50px);
