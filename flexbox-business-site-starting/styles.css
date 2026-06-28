@@ -175,8 +175,8 @@ p {
 .founder-background img {
   padding: 15px;
   height: auto;
-  max-height: 6rem;
-  min-width: 4rem;
+  max-height: 7rem;
+  min-width: 7rem;
   object-fit: cover;
   object-position: center;
   transform: translateX(20px);
@@ -185,11 +185,10 @@ p {
 
 article {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.01);
     width: auto;
-    max-width: 7rem;
     backdrop-filter: blur(70px);
     border: 1px solid rgb(255, 255, 255, 0.9);
     border-radius: 10px;
