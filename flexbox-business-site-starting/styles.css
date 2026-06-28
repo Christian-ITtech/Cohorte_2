@@ -98,7 +98,6 @@ input::placeholder {
 .logo-image {
     background-image: url("logo1.png");
     background-color: rgba(23, 169, 232, 0.5);
-    background-size: cover;
 
 }
 .brand-container {
